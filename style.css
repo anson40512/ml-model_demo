@@ -1,0 +1,47 @@
+body{
+    margin: 0px;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 微軟正黑體;
+    color: #0e69d1;
+    text-align: center;
+    padding: 10px;
+}
+
+.top{
+    display: flex;
+}
+.top div{
+    border: 1px;
+    padding: 10px;
+    width: 100px;
+}
+.icon{
+    flex: 4;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 微軟正黑體;
+    color: #0e69d1;
+}
+.button{
+    flex: 1;
+}
+
+.contact{
+    text-align: center;
+    line-height: 25px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* mobilephone layout */
+@media screen and (max-width:600px){
+    .contact{
+        width: 100%;
+        text-align: center;
+    }
+}
