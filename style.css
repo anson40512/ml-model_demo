@@ -1,47 +1,220 @@
-body{
-    margin: 0px;
+hr {
+    margin: 1rem 0;
+    color: inherit;
+    background-color: #42413e;
+    opacity: .25;
 }
 
-h2{
-    font-size: 30px;
-    font-weight: bold;
-    font-family: 微軟正黑體;
-    color: #0e69d1;
-    text-align: center;
-    padding: 10px;
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
 }
 
-.top{
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+img, svg {
+    vertical-align: middle;
+}
+
+.rounded-circle {
+    border-radius: 50%;
+}
+
+
+
+/* ----- background style -----*/
+.bg-black{
+    background-color: #42413e;
+}
+
+.bg-white{
+    background-color: #fff;
+}
+/* -------------------- */
+
+
+/* ----- text style ----- */
+.text-white {
+    color: #fff;
+}
+
+.text-black {
+    color: #42413e;
+}
+
+.text-decoration-none {
+    text-decoration: none;
+}
+/* -------------------- */
+
+
+/* ----- link style ----- */
+.link-black {
+    color: #42413e;
+}
+/* -------------------- */
+
+
+/* ----- flex ----- */
+.d-flex {
     display: flex;
 }
-.top div{
-    border: 1px;
-    padding: 10px;
-    width: 100px;
+
+.flex-column {
+    flex-direction: column;
 }
-.icon{
-    flex: 4;
-    font-size: 30px;
-    font-weight: bold;
-    font-family: 微軟正黑體;
-    color: #0e69d1;
-}
-.button{
-    flex: 1;
+/* -------------------- */
+
+
+/* ----- navagation bar ----- */
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
 }
 
-.contact{
+.nav-link {
+    display: block;
+    color: #42413e;
+    background: 0 0;
+    padding: .5rem 1rem;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    border: 0;
+    border-radius: .25rem;
+}
+/* -------------------- */
+
+
+/* ----- padding ----- */
+.p-1rem{
+    padding: 1rem!important;
+}
+
+.px-1rem{
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.py-3rem{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+/* -------------------- */
+
+
+/* ----- margin ----- */
+.mb-1rem {
+    margin-bottom: 1rem;
+}
+
+.mt-o{
+    margin-top: 0px;
+}
+
+.my-center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mb-auto {
+    margin-bottom: auto;
+}
+/* -------------------- */
+
+
+/* ----- align ----- */
+.align-items-center {
+    align-items: center;
+}
+/* -------------------- */
+
+
+.dropdown{
+    position: relative;
+}
+
+.dropdown-toggle {
+    outline: 0;
+    white-space: nowrap;
+}
+
+
+/* ----- body ----- */
+body{
+    margin: 0px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: 微軟正黑體;
+    background-color: #fff
+}
+/* -------------------- */
+
+
+/* ----- header ----- */
+header{
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100vh;
+    height: -webkit-fill-available;
+    max-height: 100vh;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.logo-png{
+    width: 180px;
+    height: 70px;
+    margin-left: 18px;
+}
+
+.logo-text{
+    margin-left: 14px;
+    font-size: 17px
+}
+
+#home{
+    margin-bottom: 20rem;
+}
+
+#home #first{
+    color: #fff;
+    background-color: #42413e;
+}
+/* -------------------- */
+
+
+/* ----- main ----- */
+
+/* -------------------- */
+
+
+/* ----- footer ----- */
+footer .contact{
     text-align: center;
     line-height: 25px;
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
 }
+/* -------------------- */
 
-/* mobilephone layout */
+/* ----- mobilephone layout ----- */
 @media screen and (max-width:600px){
     .contact{
         width: 100%;
         text-align: center;
     }
 }
+/* -------------------- */
