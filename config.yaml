@@ -1,0 +1,7 @@
+mimic3_path : '../data/'
+dic_path : '../data/dic'
+inputevent_cv_path : '../data/inputevents_cv'
+inputevent_mv_path : '../data/inputevents_mv'
+labevent : '../data/labevent'
+outputevent : '../data/outputevent'
+prescriptions : '../data/prescriptions'
